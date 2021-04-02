@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/TheIrritainer/nfigurator.svg?branch=master)](https://travis-ci.org/TheIrritainer/nfigurator)
+
 # Nfigurator
 ## NGINX Configuration Processor
 
