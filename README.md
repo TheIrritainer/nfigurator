@@ -15,7 +15,7 @@ PHP Nginx configuration files processor (parser, creator).
 The best way to install is to use the [Composer](https://getcomposer.org/) dependency manager.
 
 ```
-php composer.phar require joltmode/nfigurator
+php composer.phar require theirritainer/nfigurator
 ```
 
 ## Features
