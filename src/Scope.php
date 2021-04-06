@@ -136,6 +136,14 @@ class Scope extends Printable
         return $this->directives;
     }
 
+    /**
+     * @return array
+     */
+    public function getPrintables(): array
+    {
+        return $this->printables;
+    }
+
     /*
      * ========== Setters ==========
      */
