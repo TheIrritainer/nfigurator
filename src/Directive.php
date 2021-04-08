@@ -264,15 +264,6 @@ class Directive extends Printable
         return $this->name;
     }
 
-    /**
-     * Get the value of this Directive.
-     *
-     * @return string
-     */
-    public function getValue()
-    {
-        return $this->value;
-    }
 
     /*
      * ========== Setters ==========
@@ -335,18 +326,6 @@ class Directive extends Printable
     public function setCommentText($text)
     {
         $this->getComment()->setText($text);
-        return $this;
-    }
-
-    /**
-     * Set the value for this Directive.
-     *
-     * @param string $value
-     * @return $this
-     */
-    public function setValue($value)
-    {
-        $this->value = $value;
         return $this;
     }
 
